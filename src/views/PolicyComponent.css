@@ -1,0 +1,25 @@
+.flex-end {
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.search-input-box {
+  width: 20% !important;
+}
+.policy-table {
+  margin: 1%;
+}
+.premium-detail {
+  display: flex;
+}
+.premium-label {
+  width: 25%;
+}
+input.ant-input.premium-value {
+  width: 20%;
+  height: 20px;
+}
+.chart-container {
+  color: blue;
+  cursor: pointer;
+}
