@@ -9,8 +9,8 @@ from core.managers import UserManager
 
 
 def validate_date(date):
-    if date < datetime.now().date():
-        raise ValidationError("Date cannot be in the past")
+    if date > datetime.now().date():
+        raise ValidationError("Date cannot be in the future")
 
 
 class User(AbstractUser):
